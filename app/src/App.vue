@@ -4,6 +4,7 @@
     <div class="mt-4">
       <RouterView />
     </div>
+    
     <Footer />
   </div>
 </template>
@@ -12,6 +13,8 @@
 import { RouterView } from "vue-router";
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
+
+
 </script>
 
 <style scoped></style>

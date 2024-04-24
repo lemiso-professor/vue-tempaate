@@ -1,12 +1,4 @@
 <template>
-  <div>Pinia test</div>
-</template>
-
-<script setup></script>
-
-<style lang="scss" scoped></style>
-
-<!-- <template>
   <div class="">
     <h1>Name is {{ store.user.name }}</h1>
     <h2>Email is {{ store.user.email }}</h2>
@@ -22,10 +14,10 @@
     </button>
     <button @click="store.count++">Count : {{ store.count }}</button>
   </div>
-</template> -->
+</template>
 
-<!-- <script setup>
-import { useUserStore } from "../store/userTest2";
+<script setup>
+// import { useUserStore } from "../store/userTest2";
 import { ref } from "vue";
 
 const store = useUserStore();
@@ -35,6 +27,6 @@ const handleSubmit = () => {
   store.changeName(nameInput.value);
   nameInput.value = "";
 };
-</script> -->
+</script>
 
-<!-- <style lang="scss" scoped></style> -->
+<style lang="scss" scoped></style>
